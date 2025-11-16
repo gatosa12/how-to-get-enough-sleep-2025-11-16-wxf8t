@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn how to get enough sleep with the best exercises, supplements, and comfortable bedding solutions. Create your perfect sleep routine in minutes.">
+    <meta name="keywords" content="sleep, rest, exercise, supplements, comfortable bed, sleep guide">
+    <meta name="author" content="Internet Marketing Brighton">
+    <meta name="og:title" content="How to Get Enough Sleep - Complete Guide">
+    <meta name="og:description" content="Discover the best ways to improve your sleep quality with proven techniques and products.">
+    <meta name="og:type" content="website">
+    <title>How to Get Enough Sleep - Complete Sleep Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.6s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .hover-lift {
+            transition: all 0.3s ease;
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+        
+        .accordion-btn {
+            transition: all 0.3s ease;
+        }
+        
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .accordion-content.active {
+            max-height: 500px;
+        }
+        
+        .mobile-menu {
+            transition: all 0.3s ease;
+        }
+        
+        .mobile-menu.active {
+            display: block;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100">
+    <!-- Header & Navigation -->
+    <header class="fixed top-0 w-full bg-gray-900 bg-opacity-95 backdrop-blur-md z-50 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-moon text-2xl text-purple-500"></i>
+                        <span class="text-xl font-bold text-white hidden sm:inline">Sleep Guide</span>
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Home</a>
+                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Benefits</a>
+                    <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">About</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Testimonials</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">FAQ</a>
+                    <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Contact</a>
+                </nav>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden text-white focus:outline-none" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation Menu -->
+        <div class="mobile-menu hidden md:hidden bg-gray-800 border-t border-gray-700">
+            <div class="px-4 py-4 space-y-3">
+                <a href="#home" class="block text-gray-300 hover:text-white transition-colors duration-300 py-2 font-medium" onclick="toggleMobileMenu()">Home</a>
+                <a href="#features" class="block text-gray-300 hover:text-white transition-colors duration-300 py-2 font-medium" onclick="toggleMobileMenu()">Features</a>
+                <a href="#benefits" class="block text-gray-300 hover:text-white transition-colors duration-300 py-2 font-medium" onclick="toggleMobileMenu()">Benefits</a>
+                <a href="#about" class="block text-gray-300 hover:text-white transition-colors duration-300 py-2 font-medium" onclick="toggleMobileMenu()">About</a>
+                <a href="#testimonials" class="block text-gray-300 hover:text-white transition-colors duration-300 py-2 font-medium" onclick="toggleMobileMenu()">Testimonials</a>
+                <a href="#faq" class="block text-gray-300 hover:text-white transition-colors duration-300 py-2 font-medium" onclick="toggleMobileMenu()">FAQ</a>
+                <a href="#contact" class="block text-gray-300 hover:text-white transition-colors duration-300 py-2 font-medium" onclick="toggleMobileMenu()">Contact</a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop" alt="Sleep background" class="w-full h-full object-cover opacity-25">
+        </div>
+        
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-gray-900 opacity-75 z-10"></div>
+        
+        <!-- Content -->
+        <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
+            <div class="fade-in">
+                <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight tracking-tight">
+                    How to Get Enough Sleep
+                </h1>
+                
+                <p class="text-xl sm:text-2xl md:text-3xl text-gray-300 mb-8 leading-relaxed max-w-3xl mx-auto">
+                    Create Starting landing page in a minute
+                </p>
+                
+                <p class="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
+                    Discover proven strategies to improve your sleep quality and wake up refreshed every morning. Learn about the best exercises, supplements, and bedding solutions.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="https://internetmarketingbrighton.com" target="_blank" rel="noopener noreferrer" class="hover-lift px-8 py-4 bg-gradient-to-r from-purple-600 to-purple-700 text-white font-bold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+                        Get Started Now
+                    </a>
+                    <a href="#features" class="hover-lift px-8 py-4 border-2 border-purple-500 text-purple-400 font-bold rounded-lg hover:bg-purple-500 hover:text-white hover:scale-105 transition-all duration-300">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 animate-bounce">
+            <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section id="features" class="py-24 bg-gray-900 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+                    Our Proven Sleep Solutions
+                </h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Three essential components to transform your sleep quality and overall wellness
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1: Best Exercise -->
+                <div class="hover-lift group bg-gray-800 border border-gray-700 rounded-xl p-8 transition-all duration-300 hover:border-purple-500 hover:bg-gray-750">
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-dumbbell text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Best Exercise</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        Regular physical activity is one of the most effective ways to improve sleep quality. Exercise helps regulate your circadian rhythm and reduces anxiety that can interfere with sleep.
+                    </p>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-400 mr-3"></i>
+                            <span>30 minutes daily activity</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-400 mr-3"></i>
+                            <span>Evening yoga for relaxation</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-400 mr-3"></i>
+                            <span>Avoid intense exercise before bed</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 2: Best Supplement -->
+                <div class="hover-lift group bg-gray-800 border border-gray-700 rounded-xl p-8 transition-all duration-300 hover:border-purple-500 hover:bg-gray-750">
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-capsules text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Best Supplement</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        Natural supplements can enhance your sleep quality when combined with healthy habits. Melatonin, magnesium, and valerian root are scientifically proven to support better rest.
+                    </p>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-400 mr-3"></i>
+                            <span>Melatonin for sleep cycle</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-400 mr-3"></i>
+                            <span>Magnesium for relaxation</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-400 mr-3"></i>
+                            <span>Natural and safe options</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 3: Best Comfortable Bed -->
+                <div class="hover-lift group bg-gray-800 border border-gray-700 rounded-xl p-8 transition-all duration-300 hover:border-purple-500 hover:bg-gray-750">
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-bed text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Best Comfortable Bed</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        Your bed is where you spend a third of your life. Investing in a quality mattress, pillows, and bedding that provide proper support is crucial for deep, restorative sleep.
+                    </p>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-400 mr-3"></i>
+                            <span>Memory foam mattress</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-400 mr-3"></i>
+                            <span>Premium pillows and sheets</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-400 mr-3"></i>
+                            <span>Climate control technology</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Video Section -->
+    <section id="video" class="py-24 bg-gray-800 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+                    Watch Our Sleep Guide
+                </h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Learn expert tips and techniques for improving your sleep quality
+                </p>
+            </div>
+            
+            <div class="relative bg-gray-900 rounded-xl overflow-hidden shadow-2xl max-w-4xl mx-auto">
+                <div class="relative w-full" style="padding-bottom: 56.25%;">
+                    <iframe 
+                        class="absolute top-0 left-0 w-full h-full rounded-xl"
+                        src="https://www.youtube.com/embed/CwjeGFGDYNA" 
+                        title="Sleep Guide Video"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <p class="text-gray-400 text-lg">
+                    This comprehensive video covers everything you need to know about achieving better sleep naturally.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-24 bg-gray-900 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+                    Transform Your Life
+                </h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Experience the incredible benefits of better sleep
+                </p>
+            </div>
+            
+            <!-- Benefit 1 -->
+            <div class="mb-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="order-2 md:order-1">
+                    <img src="https://images.unsplash.com/photo-1541746972996-4e0b6dfe56cb?w=600&h=400&fit=crop" alt="Sleep like a baby" class="rounded-lg shadow-xl w-full object-cover h-96">
+                </div>
+                <div class="order-1 md:order-2">
+                    <h3 class="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight">
+                        Sleep Like a Baby
+                    </h3>
+                    <p class="text-gray-400 text-lg leading-relaxed mb-6">
+                        Experience deep, uninterrupted sleep that leaves you feeling completely refreshed. With our proven methods, you'll fall asleep faster, stay asleep longer, and enjoy the most restorative sleep of your life. Wake up without grogginess or fatigue.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center text-gray-300">
+                            <i class="fas fa-star text-purple-400 mr-3"></i>
+                            <span>Deep REM sleep cycles</span>
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <i class="fas fa-star text-purple-400 mr-3"></i>
+                            <span>No more tossing and turning</span>
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <i class="fas fa-star text-purple-400 mr-3"></i>
+                            <span>Wake refreshed and energized</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Benefit 2 -->
+            <div class="mb-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop" alt="Wake up energized" class="rounded-lg shadow-xl w-full object-cover h-96">
+                </div>
+                <div>
+                    <h3 class="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight">
+                        Wake Up Like a Champion
+                    </h3>
+                    <p class="text-gray-400 text-lg leading-relaxed mb-6">
+                        Start your day with unstoppable energy and mental clarity. Better sleep means better mornings. You'll experience improved focus, enhanced productivity, and a positive mood that carries throughout your entire day. No more struggling to get out of bed.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center text-gray-300">
+                            <i class="fas fa-lightning-bolt text-purple-400 mr-3"></i>
+                            <span>Increased daytime energy</span>
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <i class="fas fa-lightning-bolt text-purple-400 mr-3"></i>
+                            <span>Enhanced mental performance</span>
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <i class="fas fa-lightning-bolt text-purple-400 mr-3"></i>
+                            <span>Positive morning mood</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Benefit 3 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="order-2 md:order-1">
+                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&h=400&fit=crop" alt="Health and wellness" class="rounded-lg shadow-xl w-full object-cover h-96">
+                </div>
+                <div class="order-1 md:order-2">
+                    <h3 class="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight">
+                        Optimal Health & Wellness
+                    </h3>
+                    <p class="text-gray-400 text-lg leading-relaxed mb-6">
+                        Quality sleep is the foundation of excellent health. Improve your immune system, regulate your metabolism, reduce stress hormones, and enhance your overall well-being. Sleep better to live better and achieve your health goals faster.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center text-gray-300">
+                            <i class="fas fa-heart text-purple-400 mr-3"></i>
+                            <span>Stronger immune system</span>
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <i class="fas fa-heart text-purple-400 mr-3"></i>
+                            <span>Better metabolism and weight management</span>
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <i class="fas fa-heart text-purple-400 mr-3"></i>
+                            <span>Reduced stress and anxiety</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-gray-800 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+                    About Us
+                </h2>
+                <p class="text-xl text-gray-400">
+                    Dedicated to helping you achieve better sleep
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop" alt="About us" class="rounded-xl shadow-xl w-full object-cover h-96">
+                </div>
+                
+                <div>
+                    <div class="space-y-8">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white mb-4">Our Story</h3>
+                            <p class="text-gray-400 leading-relaxed text-lg">
+                                Founded in 2015, Sleep Guide was born from a personal mission to help millions of people overcome sleep deprivation. Our founder, after struggling with chronic insomnia, discovered the transformative power of combining exercise, proper supplementation, and quality bedding. What started as a personal journey evolved into a comprehensive platform dedicated to sharing evidence-based sleep solutions with the world. Today, we've helped over 100,000 people dramatically improve their sleep quality and transform their lives.
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-2xl font-bold text-white mb-4">Our Mission</h3>
+                            <p class="text-gray-400 leading-relaxed text-lg">
+                                We believe everyone deserves restful, rejuvenating sleep. Our mission is to provide accessible, scientifically-proven guidance that empowers individuals to take control of their sleep health. We're committed to combining the latest sleep science with practical, actionable advice. By promoting better sleep habits and providing expert resources, we aim to create a healthier, more energized world where people wake up ready to achieve their dreams.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+                <div class="bg-gray-900 rounded-lg p-8 text-center hover-lift">
+                    <div class="text-4xl font-bold gradient-text mb-2">100K+</div>
+                    <p class="text-gray-400 text-lg">People Helped</p>
+                </div>
+                <div class="bg-gray-900 rounded-lg p-8 text-center hover-lift">
+                    <div class="text-4xl font-bold gradient-text mb-2">8+ Years</div>
+                    <p class="text-gray-400 text-lg">Industry Experience</p>
+                </div>
+                <div class="bg-gray-900 rounded-lg p-8 text-center hover-lift">
+                    <div class="text-4xl font-bold gradient-text mb-2">50+</div>
+                    <p class="text-gray-400 text-lg">Expert Resources</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-gray-900 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+                    What Our Users Say
+                </h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Real stories from real people who transformed their sleep
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="hover-lift bg-gray-800 border border-gray-700 rounded-xl p-8 transition-all duration-300 hover:border-purple-500">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="ml-2 text-gray-400 font-semibold">5.0</span>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed mb-6 text-lg">
+                        "I was skeptical at first, but following the exercise recommendations and switching to a quality mattress changed everything. I now sleep 8 hours straight without waking up. My energy levels during the day are incredible, and I feel like a completely different person. This guide is a game-changer!"
+                    </p>
+                    <div class="border-t border-gray-700 pt-4">
+                        <p class="text-white font-bold">Sarah Mitchell</p>
+                        <p class="text-purple-400 text-sm">Business Executive, New York</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="hover-lift bg-gray-800 border border-gray-700 rounded-xl p-8 transition-all duration-300 hover:border-purple-500">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="ml-2 text-gray-400 font-semibold">5.0</span>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed mb-6 text-lg">
+                        "As a software developer working late nights, my sleep schedule was completely broken. The magnesium supplement recommendation combined with the evening yoga routine has restored my natural sleep cycle. I'm more productive at work and finally feel rested again!"
+                    </p>
+                    <div class="border-t border-gray-700 pt-4">
+                        <p class="text-white font-bold">James Chen</p>
+                        <p class="text-purple-400 text-sm">Software Developer, San Francisco</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="hover-lift bg-gray-800 border border-gray-700 rounded-xl p-8 transition-all duration-300 hover:border-purple-500">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="ml-2 text-gray-400 font-semibold">5.0</span>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed mb-6 text-lg">
+                        "After years of insomnia and trying everything, this comprehensive approach actually worked. The combination of proper exercise timing, natural supplements, and a comfortable bed setup has given me my life back. I wake up refreshed and ready to tackle my day!"
+                    </p>
+                    <div class="border-t border-gray-700 pt-4">
+                        <p class="text-white font-bold">Emily Rodriguez</p>
+                        <p class="text-purple-400 text-sm">Healthcare Professional, Miami</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 4 -->
+                <div class="hover-lift bg-gray-800 border border-gray-700 rounded-xl p-8 transition-all duration-300 hover:border-purple-500">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="ml-2 text-gray-400 font-semibold">5.0</span>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed mb-6 text-lg">
+                        "The video content is exceptional and easy to follow. Within two weeks of implementing the recommendations, my sleep quality improved dramatically. My anxiety is down, my immune system is stronger, and I've never felt better. Highly recommend this to anyone struggling with sleep!"
+                    </p>
+                    <div class="border-t border-gray-700 pt-4">
+                        <p class="text-white font-bold">Michael Thompson</p>
+                        <p class="text-purple-400 text-sm">Fitness Coach, Los Angeles</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24 bg-gray-800 relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-xl text-gray-400">
+                    Find answers to common questions about better sleep
+                </p>
+            </div>
+            
+            <div class="space-y-4">
+                <!-- FAQ 1 -->
+                <div class="bg-gray-900 border border-gray-700 rounded-lg overflow-hidden hover:border-purple-500 transition-colors duration-300">
+                    <button class="accordion-btn w-full px-6 py-4 flex justify-between items-center hover:bg-gray-850 transition-colors duration-300" onclick="toggleAccordion(this)">
+                        <h3 class="text-lg font-bold text-white text-left">How long does it take to see improvements in my sleep?</h3>
+                        <i class="fas fa-chevron-down text-purple-400"></i>
+                    </button>
+                    <div class="accordion-content px-6 pb-4 text-gray-400">
+                        <p class="leading-relaxed">
+                            Most people notice improvements within 1-2 weeks of consistently following the recommendations. The timeline depends on your current sleep habits and how strictly you implement the changes. For exercise, you may feel more energized after just 3-4 days. Supplements typically take 1-2 weeks to show full effects. A new mattress provides immediate comfort benefits. Combined, you should experience significant sleep quality improvement within 2-3 weeks. Some users report changes within just a few days.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="bg-gray-900 border border-gray-700 rounded-lg overflow-hidden hover:border-purple-500 transition-colors duration-300">
+                    <button class="accordion-btn w-full px-6 py-4 flex justify-between items-center hover:bg-gray-850 transition-colors duration-300" onclick="toggleAccordion(this)">
+                        <h3 class="text-lg font-bold text-white text-left">Are the supplements safe and natural?</h3>
+                        <i class="fas fa-chevron-down text-purple-400"></i>
+                    </button>
+                    <div class="accordion-content px-6 pb-4 text-gray-400">
+                        <p class="leading-relaxed">
+                            Yes, all supplements we recommend are natural and scientifically proven. Melatonin is naturally produced by your body, and we recommend doses that match your body's natural production. Magnesium is an essential mineral found in many foods. Valerian root is an herbal supplement used for centuries. These are all non-habit forming and gentle on your system. However, we always recommend consulting with your doctor before starting any new supplement, especially if you're taking medications or have existing health conditions. Quality matters, so choose reputable brands and follow dosage instructions carefully.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="bg-gray-900 border border-gray-700 rounded-lg overflow-hidden hover:border-purple-500 transition-colors duration-300">
+                    <button class="accordion-btn w-full px-6 py-4 flex justify-between items-center hover:bg-gray-850 transition-colors duration-300" onclick="toggleAccordion(this)">
+                        <h3 class="text-lg font-bold text-white text-left">Can I follow this guide if I work night shifts?</h3>
+                        <i class="fas fa-chevron-down text-purple-400"></i>
+                    </button>
+                    <div class="accordion-content px-6 pb-4 text-gray-400">
+                        <p class="leading-relaxed">
+                            Absolutely! While the guide is designed for traditional sleep schedules, the principles are adaptable for shift workers. The key is consistency and maintaining a regular sleep schedule, even if it's different from typical hours. You can adjust exercise timing to align with your sleep schedule, use blackout curtains during day sleep, and maintain consistent supplement timing. The most important thing is creating a stable routine that your body can adapt to. Many shift workers report success using these methods, though you may need to adjust the specific timing recommendations to fit your schedule.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 4 -->
+                <div class="bg-gray-900 border border-gray-700 rounded-lg overflow-hidden hover:border-purple-500 transition-colors duration-300">
+                    <button class="accordion-btn w-full px-6 py-4 flex justify-between items-center hover:bg-gray-850 transition-colors duration-300" onclick="toggleAccordion(this)">
+                        <h3 class="text-lg font-bold text-white text-left">What if I have sleep apnea or other sleep disorders?</h3>
+                        <i class="fas fa-chevron-down text-purple-400"></i>
+                    </button>
+                    <div class="accordion-content px-6 pb-4 text-gray-400">
+                        <p class="leading-relaxed">
+                            If you have a diagnosed sleep disorder like sleep apnea, this guide should complement, not replace, professional medical treatment. The exercise and supplement recommendations are generally safe, but you should consult your sleep specialist before making changes. A comfortable bed and proper sleep environment can still benefit you, but medical treatment is essential for conditions like sleep apnea. Many people with sleep disorders find that combining medical treatment with the lifestyle improvements in our guide accelerates their recovery and improves overall sleep quality. Always work with your healthcare provider to develop a comprehensive sleep improvement plan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section id="contact" class="py-24 bg-gray-900 relative overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=600&fit=crop" alt="Contact background" class="w-full h-full object-cover opacity-20">
+        </div>
+        
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-gray-900 opacity-80 z-10"></div>
+        
+        <!-- Content -->
+        <div class="relative z-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+                Ready to Transform Your Sleep?
+            </h2>
+            <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+                Join thousands of people who have already improved their sleep quality and transformed their lives. Start your journey to better rest today.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+                <a href="https://internetmarketingbrighton.com" target="_blank" rel="noopener noreferrer" class="hover-lift px-10 py-4 bg-gradient-to-r from-purple-600 to-purple-700 text-white font-bold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 text-lg">
+                    Start Now
+                </a>
+                <a href="mailto:internetmarketingbrighton@gmail.com" class="hover-lift px-10 py-4 border-2 border-purple-500 text-purple-400 font-bold rounded-lg hover:bg-purple-500 hover:text-white hover:scale-105 transition-all duration-300 text-lg">
+                    Contact Us
+                </a>
+            </div>
+            
+            <p class="text-gray-400">
+                Have questions? Email us at <a href="mailto:internetmarketingbrighton@gmail.com" class="text-purple-400 hover:text-purple-300 transition-colors duration-300">internetmarketingbrighton@gmail.com</a>
+            </p>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Column 1: Company Info -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i class="fas fa-moon text-2xl text-purple-500"></i>
+                        <span class="text-xl font-bold text-white">Sleep Guide</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                        Dedicated to helping you achieve better sleep and transform your life through proven, science-backed methods.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Column 2: Quick Links -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="#home" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Home</a>
+                        </li>
+                        <li>
+                            <a href="#features" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Features</a>
+                        </li>
+                        <li>
+                            <a href="#benefits" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Benefits</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Resources -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Resources</h4>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="#testimonials" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="#faq" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="blog.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4: Legal -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Legal</h4>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="privacy.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="terms.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Terms of Service</a>
+                        </li>
+                        <li>
+                            <a href="mailto:internetmarketingbrighton@gmail.com" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Contact Email</a>
+                        </li>
+                        <li>
+                            <a href="https://internetmarketingbrighton.com" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Our Website</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Divider -->
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col sm:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm mb-4 sm:mb-0">
+                        &copy; 2024 Sleep Guide. All rights reserved. | Designed with <i class="fas fa-heart text-red-500"></i> by Internet Marketing Brighton
+                    </p>
+                    <div class="flex space-x-6">
+                        <a href="privacy.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Privacy</a>
+                        <a href="terms.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Terms</a>
+                        <a href="blog.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Mobile Menu Toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.querySelector('.mobile-menu');
+            mobileMenu.classList.toggle('active');
+        }
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.mobile-menu').classList.remove('active');
+            });
+        });
+        
+        // Accordion Toggle
+        function toggleAccordion(button) {
+            const content = button.nextElementSibling;
+            const icon = button.querySelector('i');
+            
+            // Close all other accordions
+            document.querySelectorAll('.accordion-content').forEach(item => {
+                if (item !== content) {
+                    item.classList.remove('active');
+                }
+            });
+            
+            document.querySelectorAll('.accordion-btn i').forEach(item => {
+                if (item !== icon) {
+                    item.style.transform = 'rotate(0deg)';
+                }
+            });
+            
+            // Toggle current accordion
+            content.classList.toggle('active');
+            
+            // Rotate icon
+            if (content.classList.contains('active')) {
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                icon.style.transform = 'rotate(0deg)';
+            }
+            
+            // Add transition to icon
+            icon.style.transition = 'transform 0.3s ease';
+        }
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    const offsetTop = target.offsetTop - 80;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Add fade-in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
