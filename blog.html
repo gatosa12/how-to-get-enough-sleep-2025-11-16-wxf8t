@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our comprehensive blog on sleep improvement, exercise routines, supplements, and comfortable bedding solutions. Get expert tips and science-backed advice for better rest.">
+    <meta name="keywords" content="sleep blog, sleep tips, exercise for sleep, sleep supplements, sleep guide, rest advice">
+    <meta name="author" content="Internet Marketing Brighton">
+    <meta name="og:title" content="Sleep Guide Blog - Expert Tips for Better Rest">
+    <meta name="og:description" content="Read our latest articles on improving sleep quality with proven techniques and products.">
+    <meta name="og:type" content="website">
+    <title>Sleep Guide Blog - Expert Tips for Better Rest</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.6s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .hover-lift {
+            transition: all 0.3s ease;
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+        
+        .accordion-btn {
+            transition: all 0.3s ease;
+        }
+        
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .accordion-content.active {
+            max-height: 500px;
+        }
+        
+        .mobile-menu {
+            transition: all 0.3s ease;
+        }
+        
+        .mobile-menu.active {
+            display: block;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100">
+    <!-- Header & Navigation -->
+    <header class="fixed top-0 w-full bg-gray-900 bg-opacity-95 backdrop-blur-md z-50 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="https://gatosa12.github.io/how-to-get-enough-sleep-2025-11-16-wxf8t" class="flex items-center space-x-2 hover:opacity-80 transition-opacity duration-300">
+                        <i class="fas fa-moon text-2xl text-purple-500"></i>
+                        <span class="text-xl font-bold text-white hidden sm:inline">Sleep Guide</span>
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="https://gatosa12.github.io/how-to-get-enough-sleep-2025-11-16-wxf8t" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">← Back</a>
+                </nav>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden text-white focus:outline-none" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation Menu -->
+        <div class="mobile-menu hidden md:hidden bg-gray-800 border-t border-gray-700">
+            <div class="px-4 py-4 space-y-3">
+                <a href="https://gatosa12.github.io/how-to-get-enough-sleep-2025-11-16-wxf8t" class="block text-gray-300 hover:text-white transition-colors duration-300 py-2 font-medium" onclick="toggleMobileMenu()">← Back</a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop" alt="Blog background" class="w-full h-full object-cover opacity-25">
+        </div>
+        
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-gray-900 opacity-75 z-10"></div>
+        
+        <!-- Content -->
+        <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
+            <div class="fade-in">
+                <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight tracking-tight">
+                    Sleep Guide Blog
+                </h1>
+                
+                <p class="text-xl sm:text-2xl md:text-3xl text-gray-300 mb-8 leading-relaxed max-w-3xl mx-auto">
+                    Expert insights and proven strategies for better sleep
+                </p>
+                
+                <p class="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
+                    Discover in-depth articles on sleep science, exercise routines, natural supplements, and creating the perfect sleep environment. Learn from experts and real-world experiences to transform your rest.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="#featured" class="hover-lift px-8 py-4 bg-gradient-to-r from-purple-600 to-purple-700 text-white font-bold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+                        Read Latest Article
+                    </a>
+                    <a href="#blog-posts" class="hover-lift px-8 py-4 border-2 border-purple-500 text-purple-400 font-bold rounded-lg hover:bg-purple-500 hover:text-white hover:scale-105 transition-all duration-300">
+                        Browse All Articles
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 animate-bounce">
+            <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+        </div>
+    </section>
+    
+    <!-- Blog Purpose Section -->
+    <section class="py-24 bg-gray-800 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+                    Welcome to Our Sleep Blog
+                </h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Purpose 1 -->
+                <div class="hover-lift group bg-gray-900 border border-gray-700 rounded-xl p-8 transition-all duration-300 hover:border-purple-500">
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-book text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Sleep Science</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Explore the latest research and scientific discoveries about sleep cycles, circadian rhythms, and the biological factors that affect your rest quality.
+                    </p>
+                </div>
+                
+                <!-- Purpose 2 -->
+                <div class="hover-lift group bg-gray-900 border border-gray-700 rounded-xl p-8 transition-all duration-300 hover:border-purple-500">
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-lightbulb text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Practical Tips</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Get actionable advice on exercise routines, supplement recommendations, sleep environment optimization, and daily habits that improve sleep quality.
+                    </p>
+                </div>
+                
+                <!-- Purpose 3 -->
+                <div class="hover-lift group bg-gray-900 border border-gray-700 rounded-xl p-8 transition-all duration-300 hover:border-purple-500">
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-star text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Success Stories</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Learn from real people who have transformed their sleep and their lives. Discover proven strategies and inspiring journeys to better rest.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Blog Post Section -->
+    <section id="featured" class="py-24 bg-gray-900 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+                    Latest Article
+                </h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Our most recent in-depth guide to improving your sleep
+                </p>
+            </div>
+            
+            <!-- Featured Post Card -->
+            <div class="hover-lift bg-gray-800 border border-gray-700 rounded-xl overflow-hidden shadow-2xl transition-all duration-300 hover:border-purple-500 max-w-4xl mx-auto">
+                <div class="p-8 md:p-12">
+                    <!-- Date Badge -->
+                    <div class="inline-block mb-6">
+                        <span class="text-purple-400 text-sm font-semibold tracking-wide">
+                            <i class="fas fa-calendar-alt mr-2"></i>November 16, 2025
+                        </span>
+                    </div>
+                    
+                    <!-- Title -->
+                    <h3 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+                        Getting Started with Our Platform
+                    </h3>
+                    
+                    <!-- Excerpt -->
+                    <p class="text-gray-300 text-lg leading-relaxed mb-8">
+                        Discover how to transform your sleep in 2025 through three powerful pillars: strategic exercise, natural supplements, and optimal sleep environment. Learn why 35% of adults suffer from insufficient sleep and how understanding your sleep cycle—featuring light, deep, and REM stages—unlocks better rest. Morning exercise regulates circadian rhythms while magnesium and melatonin provide neurochemical support. Invest in quality mattresses, blackout curtains, and proper temperature control between 60-67°F. This comprehensive guide reveals science-backed methods to fall asleep faster, sleep longer, and wake refreshed. Implement these evidence-based strategies weekly to achieve dramatic improvements within weeks, enhancing physical health, mental clarity, and overall life quality.
+                    </p>
+                    
+                    <!-- Read More Button -->
+                    <div class="flex flex-col sm:flex-row gap-4 items-start">
+                        <a href="https://gatosa12.github.io/how-to-get-enough-sleep-2025-11-16-wxf8t/blog/getting-started-with-our-platform.html" class="hover-lift px-8 py-4 bg-gradient-to-r from-purple-600 to-purple-700 text-white font-bold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 inline-block">
+                            Read Full Article <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        <span class="text-gray-400 text-sm flex items-center">
+                            <i class="fas fa-clock mr-2"></i>
+                            8 min read
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Blog Posts Grid Section -->
+    <section id="blog-posts" class="py-24 bg-gray-800 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+                    More Articles Coming Soon
+                </h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    We're constantly creating new content to help you achieve better sleep
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Placeholder 1 -->
+                <div class="hover-lift bg-gray-900 border border-gray-700 rounded-xl p-8 transition-all duration-300 hover:border-purple-500 flex flex-col items-center justify-center min-h-96">
+                    <i class="fas fa-pen-fancy text-5xl text-purple-500 mb-4 opacity-50"></i>
+                    <p class="text-gray-400 text-center">New article in development</p>
+                </div>
+                
+                <!-- Placeholder 2 -->
+                <div class="hover-lift bg-gray-900 border border-gray-700 rounded-xl p-8 transition-all duration-300 hover:border-purple-500 flex flex-col items-center justify-center min-h-96">
+                    <i class="fas fa-pen-fancy text-5xl text-purple-500 mb-4 opacity-50"></i>
+                    <p class="text-gray-400 text-center">New article in development</p>
+                </div>
+                
+                <!-- Placeholder 3 -->
+                <div class="hover-lift bg-gray-900 border border-gray-700 rounded-xl p-8 transition-all duration-300 hover:border-purple-500 flex flex-col items-center justify-center min-h-96">
+                    <i class="fas fa-pen-fancy text-5xl text-purple-500 mb-4 opacity-50"></i>
+                    <p class="text-gray-400 text-center">New article in development</p>
+                </div>
+            </div>
+            
+            <!-- Newsletter Signup -->
+            <div class="mt-16 bg-gray-900 border border-gray-700 rounded-xl p-8 md:p-12 text-center max-w-2xl mx-auto hover-lift transition-all duration-300 hover:border-purple-500">
+                <h3 class="text-2xl font-bold text-white mb-4">Stay Updated</h3>
+                <p class="text-gray-400 mb-6">
+                    Get notified when we publish new articles about sleep improvement, exercise, supplements, and more.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:border-purple-500 transition-colors duration-300">
+                    <button class="px-6 py-3 bg-gradient-to-r from-purple-600 to-purple-700 text-white font-bold rounded-lg hover:shadow-lg transition-all duration-300">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="py-24 bg-gray-900 relative overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=600&fit=crop" alt="Contact background" class="w-full h-full object-cover opacity-20">
+        </div>
+        
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-gray-900 opacity-80 z-10"></div>
+        
+        <!-- Content -->
+        <div class="relative z-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+                Ready to Transform Your Sleep?
+            </h2>
+            <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+                Go back to our main guide for comprehensive strategies and start your journey to better rest today.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+                <a href="https://gatosa12.github.io/how-to-get-enough-sleep-2025-11-16-wxf8t" class="hover-lift px-10 py-4 bg-gradient-to-r from-purple-600 to-purple-700 text-white font-bold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 text-lg">
+                    Back to Main Guide
+                </a>
+                <a href="mailto:internetmarketingbrighton@gmail.com" class="hover-lift px-10 py-4 border-2 border-purple-500 text-purple-400 font-bold rounded-lg hover:bg-purple-500 hover:text-white hover:scale-105 transition-all duration-300 text-lg">
+                    Contact Us
+                </a>
+            </div>
+            
+            <p class="text-gray-400">
+                Have questions? Email us at <a href="mailto:internetmarketingbrighton@gmail.com" class="text-purple-400 hover:text-purple-300 transition-colors duration-300">internetmarketingbrighton@gmail.com</a>
+            </p>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Column 1: Company Info -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i class="fas fa-moon text-2xl text-purple-500"></i>
+                        <span class="text-xl font-bold text-white">Sleep Guide</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                        Dedicated to helping you achieve better sleep and transform your life through proven, science-backed methods.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Column 2: Quick Links -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="https://gatosa12.github.io/how-to-get-enough-sleep-2025-11-16-wxf8t" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Home</a>
+                        </li>
+                        <li>
+                            <a href="https://gatosa12.github.io/how-to-get-enough-sleep-2025-11-16-wxf8t#features" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Features</a>
+                        </li>
+                        <li>
+                            <a href="https://gatosa12.github.io/how-to-get-enough-sleep-2025-11-16-wxf8t#benefits" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Benefits</a>
+                        </li>
+                        <li>
+                            <a href="https://gatosa12.github.io/how-to-get-enough-sleep-2025-11-16-wxf8t#about" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Resources -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Resources</h4>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="https://gatosa12.github.io/how-to-get-enough-sleep-2025-11-16-wxf8t#testimonials" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="https://gatosa12.github.io/how-to-get-enough-sleep-2025-11-16-wxf8t#faq" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#blog-posts" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Blog</a>
+                        </li>
+                        <li>
+                            <a href="https://gatosa12.github.io/how-to-get-enough-sleep-2025-11-16-wxf8t#contact" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4: Legal -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Legal</h4>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="privacy.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="terms.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Terms of Service</a>
+                        </li>
+                        <li>
+                            <a href="mailto:internetmarketingbrighton@gmail.com" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Contact Email</a>
+                        </li>
+                        <li>
+                            <a href="https://internetmarketingbrighton.com" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Our Website</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Divider -->
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col sm:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm mb-4 sm:mb-0">
+                        &copy; 2024 Sleep Guide. All rights reserved. | Designed with <i class="fas fa-heart text-red-500"></i> by Internet Marketing Brighton
+                    </p>
+                    <div class="flex space-x-6">
+                        <a href="privacy.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Privacy</a>
+                        <a href="terms.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Terms</a>
+                        <a href="#blog-posts" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Mobile Menu Toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.querySelector('.mobile-menu');
+            mobileMenu.classList.toggle('active');
+        }
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.mobile-menu').classList.remove('active');
+            });
+        });
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    const offsetTop = target.offsetTop - 80;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Add fade-in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
